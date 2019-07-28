@@ -1,15 +1,15 @@
 server:
   port: 8671
 
-# eureka:
-#   instance:
-#     hostname: localhost
-#   client:
-#     registerWithEureka: false
-#     fetchRegistry: false
-#   server:
-#     waitTimeInMsWhenSyncEmpty: 0
-# logging:
-#   level:
-#     org.springframework.cloud: 'DEBUG'
+eureka:
+  instance:
+    hostname: localhost
+  client:
+    registerWithEureka: false
+    fetchRegistry: false
+  server:
+    waitTimeInMsWhenSyncEmpty: 0
+logging:
+  level:
+    org.springframework.cloud: 'DEBUG'
 
